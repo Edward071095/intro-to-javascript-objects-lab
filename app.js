@@ -38,7 +38,7 @@ Solve Exercise 3 here:
 
 
 game.difficulty = "Medium"
-console.log(game)
+//console.log(game)
 
 
 
@@ -52,10 +52,10 @@ Solve Exercise 4 here:
 */
 
 
-//console.log(pokemon[0])
-//console.log(game.party)
-//game.party.push()
-//console.log(game)
+console.log(pokemon[0])
+console.log(game.party)
+game.party.push()
+console.log(game)
 
 
 /*
