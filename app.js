@@ -17,15 +17,28 @@ const game = {
     ],
   }
 
-  console.dir(pokemon, { maxArrayLength: null })
+ //console.dir(pokemon, { maxArrayLength: null })
 
-// pokemon[59] = "Poliwag";
+ //pokemon[59] = "Poliwag";
   
-// console.log(pokemon[59])
+ //console.log(pokemon[59])
 
- console.log(game)
+ //console.log(game)
 
 
+
+/*
+Exercise 3
+1. Add a new property to the `game` object. Let's call it "difficulty".
+2. Choose a value for "difficulty" that you think fits the game. Ex: "Easy", "Med" or "Hard". How would you assign it?
+
+
+Solve Exercise 3 here:
+*/
+
+
+game.difficulty = "Medium"
+console.log(game)
 
 
 
@@ -38,12 +51,12 @@ Exercise 4
 Solve Exercise 4 here:
 */
 
-/*
-console.log(pokemon[0])
-console.log(game.party)
-game.party.push()
-console.log(game)
-/*
+
+//console.log(pokemon[0])
+//console.log(game.party)
+//game.party.push()
+//console.log(game)
+
 
 /*
 Exercise 5
@@ -54,11 +67,11 @@ Exercise 5
 Solve Exercise 5 here:
 */
 
-/*
-game.party.push(pokemon[1], pokemon[7], pokemon[12])
 
-console.log(game)
-*/
+//game.party.push(pokemon[1], pokemon[7], pokemon[12])
+
+//console.log(game)
+
 
 /*
 Exercise 6
