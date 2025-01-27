@@ -52,10 +52,10 @@ Solve Exercise 4 here:
 */
 
 
-console.log(pokemon[0])
-console.log(game.party)
-game.party.push()
-console.log(game)
+//console.log(pokemon[0])
+//console.log(game.party)
+//game.party.push()
+//console.log(game)
 
 
 /*
@@ -68,9 +68,9 @@ Solve Exercise 5 here:
 */
 
 
-//game.party.push(pokemon[1], pokemon[7], pokemon[12])
+game.party.push(pokemon[1], pokemon[7], pokemon[12])
 
-//console.log(game)
+console.log(game)
 
 
 /*
