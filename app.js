@@ -54,11 +54,11 @@ Solve Exercise 4 here:
 //game.party.push([1])
 //console.log(game)
 
-//let starterPokemon = pokemon.find(pokemon => pokemon.starter === true);
+let starterPokemon = pokemon.find(pokemon => pokemon.starter === true);
 
-//game.party.push(starterPokemon);
+game.party.push(starterPokemon);
 
-//console.log(game.party);
+console.log(game.party);
 
 
 /*
@@ -71,9 +71,9 @@ Solve Exercise 5 here:
 */
 
 
-//game.party.push(pokemon[5], pokemon[7], pokemon[12])
+game.party.push(pokemon[5], pokemon[7], pokemon[12])
 
-//console.log(game)
+console.log(game)
 
 
 /*
@@ -123,7 +123,7 @@ More Hints: The existing starter Pokemon will be *replaced* in your party with t
 Solve Exercise 7 here:
 */
 
-//game.party[0] = pokemon[1]
+game.party[0] = pokemon[1]
 
 
 /*
