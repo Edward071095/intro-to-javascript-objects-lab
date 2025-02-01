@@ -146,5 +146,23 @@ for (let i = 0; i < nameArray.length; i++) {
   console.log(nameArray[i].name);
 }
 
+/*
+Exercise 9
+1. Can you print out all the starter Pokémon from the `pokemon` array?
+2. Think about how you can identify a starter Pokémon and then log their names.
+
+
+Solve Exercise 9 here:
+*/
+
+let starters = [
+  {number: 1, name: 'Bulbasaur', type: 'grass', hp: 45, starter: true},
+  {number: 4, name: 'Charmander', type: 'fire', hp: 39, starter: true},
+  {number: 7, name: 'Squirtle', type: 'water', hp: 44, starter: true},
+  {number: 25, name: 'Pikachu', type: 'electric', hp: 35, starter: true}
+];
+
+console.log(starters)
+
 
 
