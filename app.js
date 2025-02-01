@@ -135,7 +135,16 @@ Solve Exercise 8 here:
 */
 
 
-//console.log(game.party[game.party.name]);
+let nameArray = [
+  {name: "Ivysaur"},
+  {name: "Charizard"},
+  {name: "Wartortle"},
+  {name: "Weedle"}
+];
+
+for (let i = 0; i < nameArray.length; i++) {
+  console.log(nameArray[i].name);
+}
 
 
 
