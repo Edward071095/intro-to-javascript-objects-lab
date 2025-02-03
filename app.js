@@ -21,4 +21,8 @@ const game = {
 //console.dir(pokemon, { maxArrayLength: null })
 
 console.log(pokemon[58].name)
+
+//exercise 2
+console.log(game)
+
  
