@@ -131,6 +131,30 @@ pokemon.forEach(pokemon => {
   }
 });
 
+/*
+Exercise 10
+Create a method called `catchPokemon` and add it to the `game` object. You should not need to edit the original game object directly. This method should:
+  - Accept an object as a parameter called `pokemonObj`
+  - Add the `pokemonObj` to the `game.party` array.
+  - not return anything
+
+After writing this method, call it and pass in a Pokemon object of your choice from the `pokemon` data to catch it.
+
+Solve Exercise 10 here:
+*/
+
+const catchPokemon = {
+  pokemonObj: []
+};
+game.party.push(catchPokemon);
+
+let kakuna = {number: 14, name: 'Kakuna', type: 'bug', hp: 45, starter: false}
+
+game.party.pokemonObj = kakuna
+
+console.log(game)
+
+
 
 
 
