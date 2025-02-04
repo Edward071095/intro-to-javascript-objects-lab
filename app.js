@@ -142,7 +142,7 @@ After writing this method, call it and pass in a Pokemon object of your choice f
 
 Solve Exercise 10 here:
 */
-
+/*
 const catchPokemon = {
   pokemonObj: []
 };
@@ -153,6 +153,40 @@ let kakuna = {number: 14, name: 'Kakuna', type: 'bug', hp: 45, starter: false}
 game.party.pokemonObj = kakuna
 
 console.log(game)
+*/
+/*
+Exercise 11
+1. Copy the `catchPokemon` method that you just wrote above, and paste it below. Modify it so that it also decreases the number of pokeballs in your inventory each time you catch a Pokémon.
+2. How will you find and update the quantity of pokeballs in the `game.items` array?
+
+Tips:
+For this exercise, it's okay to have a negative number of pokeballs.
+After updating the method, call it and pass in a Pokemon object of your choice from the `pokemon` data to catch it.
+Also, log the `game.items` array to confirm that the pokeball quantity is being decremented.
+
+Solve Exercise 11 here:
+*/
+
+function catchPokemon(pokemon) {
+  console.log(`You caught a ${pokemon.name}!`);
+
+  const pokeballItem = game.items.find(item => item.name === 'pokeball');
+
+  if (pokeballItem && pokeballItem.quantity > 0) {
+    pokeballItem.quantity--;
+    console.log(`You used 1 Pokeball. you have ${pokeballItem.quantity} Pokeballs left.`);
+  } else {
+    console.log("You dont't have any Pokeballs left!");
+    return;
+  }
+  game.party.push(pokemon);
+}
+
+const kakuna = {number: 14, name: 'Kakuna', type: 'bug', hp: 45, starter: false}
+
+catchPokemon(kakuna);
+
+console.log(game);
 
 
 
